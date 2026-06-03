@@ -1,0 +1,19 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Root */
+:root {
+  --primary-color: #2563eb;
+  --text-color: #111827;
+}
+
+/* Base styles */
+body {
+  font-family: "Figtree", sans-serif;
+  color: var(--text-color);
+  background: white;
+}
